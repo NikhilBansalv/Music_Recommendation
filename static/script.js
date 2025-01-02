@@ -1,5 +1,5 @@
 document.getElementById("recommend-form").addEventListener("submit", async function (e) {
-  e.preventDefault();
+  e.preventDefault(); // Prevent default form submission (page reload)
 
   const formData = new FormData(e.target);
   const response = await fetch("/recommend", {

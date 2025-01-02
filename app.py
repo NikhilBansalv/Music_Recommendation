@@ -8,7 +8,7 @@ music_recommender = MusicRecommender("data/ex.csv")
 
 @app.route("/")
 def home():
-    return render_template("try.html")  # Render the frontend
+    return render_template("index.html")  # Render the frontend
 
 @app.route('/recommend', methods=['POST'])
 def recommend():
