@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #2c3e50, #8e44ad); /* Darker gradient with vibrant purple */
+  margin: 0;
+  padding: 0;
+  color: #ecf0f1; /* Light text for readability */
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: rgba(44, 62, 80, 0.85); /* Semi-transparent dark background */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #ff6347; /* Vibrant tomato red for the header */
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6); /* Stronger shadow for more depth */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+label {
+  font-size: 1.2em;
+  color: #f1c40f; /* Bright yellow for labels */
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  background: #34495e; /* Slightly lighter dark background for inputs */
+  color: #ecf0f1; /* Light text for input */
+  box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 1.1em;
+  color: #fff;
+  background: #1abc9c; /* Neon teal for the button */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #16a085; /* Darker neon teal on hover */
+}
+
+#recommendations {
+  margin-top: 30px;
+}
+
+#recommendations h2 {
+  text-align: center;
+  font-size: 1.6em;
+  color: #9b59b6; /* Vibrant purple for the recommendations header */
+}
+
+#recommendationList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#recommendationList li {
+  background: rgba(255, 255, 255, 0.1); /* Subtle background for list items */
+  margin: 8px 0;
+  padding: 12px;
+  border-radius: 5px;
+  text-align: left;
+  font-size: 1.2em;
+  color: #ecf0f1; /* Light text for list items */
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+}
